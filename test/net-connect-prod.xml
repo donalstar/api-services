@@ -1,0 +1,34 @@
+<NetConnectRequest>
+    <EAI>DEWJEIHM</EAI>
+    <DBHost>BIZ_ID</DBHost>
+    <ReferenceId>BizID Sample</ReferenceId>
+    <Request>
+        <Products>
+            <BizID>
+                <XMLVersion>03</XMLVersion>
+                <Subscriber>
+                    <Preamble>TBRC</Preamble>
+                    <OpInitials>00</OpInitials>
+                    <SubCode>0308560</SubCode>
+                </Subscriber>
+                <BusinessApplicant>
+                    <BusinessName>A to Z Painting Plus</BusinessName>
+                    <CurrentAddress>
+                        <Street>133 Airport Rd</Street>
+                        <City>Concord</City>
+                        <State>NH</State>
+                        <Zip>03301</Zip>
+                    </CurrentAddress>
+                    <Phone>
+                        <Number>6038564270</Number>
+                    </Phone>
+                </BusinessApplicant>
+                <Options>
+                    <ProductOption>100</ProductOption>
+                    <ReferenceNumber>Sample100</ReferenceNumber>
+                    <Verbose>Y</Verbose>
+                </Options>
+            </BizID>
+        </Products>
+    </Request>
+</NetConnectRequest>

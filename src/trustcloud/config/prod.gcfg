@@ -1,0 +1,27 @@
+; Http
+[http]
+;forwarder = api.trustcloud.com
+
+; Database
+[database]
+name = trustcloud
+legacy = tc_platform_live
+user = trustcloud
+password = majorBr3ach
+host = trustcloud.currznz855zg.us-east-1.rds.amazonaws.com
+
+; Mail
+[mail]
+user = AKIAJK4L7AZOPFLR3G6Q
+password = AoZddoMWKSAYgOxGfrWWeNGINWEB+HMwQVFgxU3zqTSq
+server = email-smtp.us-east-1.amazonaws.com
+port = 587
+from = do-not-reply@trustcloud.com
+testmode = N
+
+; Payment
+[payment]
+;user = admin_api2.trustcloud.com
+;password = T8VETZJV6KW9HWGU
+;signature = AiPC9BjkCyDFQXbSkoZcgqH3hpacA4aPjpF2tjtwzcFZOEKhEmtjEIFM
+;testmode = N

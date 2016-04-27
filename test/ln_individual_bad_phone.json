@@ -1,0 +1,109 @@
+//BAD PHONE #
+
+{
+  "response": {
+    "Header": {
+      "Status": 0,
+      "TransactionId": "37010680R532621"
+    },
+    "Result": {
+      "InputEcho": {
+        "Name": {
+          "First": "Donal",
+          "Last": "Carroll"
+        },
+        "Address": {
+          "City": "San Francisco",
+          "State": "CA",
+          "Zip5": "94117"
+        },
+        "HomePhone": "4157067023",
+        "WorkPhone": "4157067023",
+        "Passport": {
+          "Number": "",
+          "ExpirationDate": {},
+          "Country": "",
+          "MachineReadableLine1": "",
+          "MachineReadableLine2": ""
+        },
+        "Channel": "",
+        "OwnOrRent": ""
+      },
+      "UniqueId": "0",
+      "VerifiedInput": {
+        "Name": {
+          "First": "DONAL",
+          "Last": "CARROLL"
+        },
+        "HomePhone": "4157067023"
+      },
+      "DOBVerified": false,
+      "NameAddressSSNSummary": 0,
+      "NameAddressPhone": {
+        "Summary": "9",
+        "Type": "P",
+        "Status": "C"
+      },
+      "ComprehensiveVerificationIndex": 20,
+      "RiskIndicators": {
+        "RiskIndicator": [
+          {
+            "RiskCode": "79",
+            "Description": "The input SSN\/TIN was missing or incomplete",
+            "Sequence": 1
+          },
+          {
+            "RiskCode": "78",
+            "Description": "The input address was missing",
+            "Sequence": 2
+          },
+          {
+            "RiskCode": "10",
+            "Description": "The input phone number is a mobile number",
+            "Sequence": 3
+          },
+          {
+            "RiskCode": "81",
+            "Description": "The input date-of-birth was missing or incomplete",
+            "Sequence": 4
+          },
+          {
+            "RiskCode": "57",
+            "Description": "The input work phone is a mobile number",
+            "Sequence": 5
+          }
+        ]
+      },
+      "PotentialFollowupActions": {
+        "FollowupAction": [
+          {
+            "RiskCode": "B",
+            "Description": "Verify name with Social (via SSN card, DL if applicable, paycheck stub, or other Government Issued ID)"
+          },
+          {
+            "RiskCode": "C",
+            "Description": "Verify name with Address (via DL, utility bill, Directory Assistance, paycheck stub, or other Government Issued ID)"
+          }
+        ]
+      },
+      "ReversePhone": {
+        "Name": {
+          "First": "DONAL",
+          "Last": "CARROLL"
+        },
+        "Address": {
+          "StreetNumber": "1724",
+          "StreetName": "HAYES",
+          "StreetAddress1": "1724 HAYES",
+          "City": "SAN FRANCISCO",
+          "State": "CA",
+          "Zip5": "94117"
+        }
+      },
+      "AdditionalScore1": "0",
+      "AdditionalScore2": "0",
+      "PassportValidated": false,
+      "DOBMatchLevel": 0
+    }
+  }
+}

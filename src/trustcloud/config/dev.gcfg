@@ -1,0 +1,30 @@
+; Http
+[http]
+;forwarder =
+
+; Database
+[database]
+name = trustcloud_dev
+legacy = tc_platform_dev
+user = trustcloud
+password = up4gl4des
+host = trustclouddev.currznz855zg.us-east-1.rds.amazonaws.com
+
+
+; Mail
+[mail]
+user = AKIAJK4L7AZOPFLR3G6Q
+password = AoZddoMWKSAYgOxGfrWWeNGINWEB+HMwQVFgxU3zqTSq
+server = email-smtp.us-east-1.amazonaws.com
+port = 587
+from = do-not-reply@trustcloud.com
+testmode = Y
+
+; Payment
+[payment]
+user = mauricio.zuniga.salas-facilitator_api1.gmail.com
+password = 1380323722
+signature = A3sGX0o2wu.lAfWi9FDagTQbJN..AwBg2wXIC8EmeTYraGGthlJbuvvB
+testmode = Y
+
+

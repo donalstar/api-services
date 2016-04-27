@@ -1,0 +1,170 @@
+{
+  "response": {
+    "Header": {
+      "Status": 0,
+      "TransactionId": "33016307R265128"
+    },
+    "Result": {
+      "InputEcho": {
+        "CompanyName": "SPIVEY CONSTRUCTION INC",
+        "CompanyAddress": {
+          "City": "INDIANAPOLIS",
+          "State": "IN",
+          "Zip5": "46227"
+        },
+        "CompanyPhone": "3177864337",
+        "AuthorizedRepresentative": {"Age": 0}
+      },
+      "AuthorizedRepresentativeResults": {
+        "NameAddressSSNSummary": "0",
+        "NameAddressPhoneSummary": "0",
+        "ComprehensiveVerificationIndex": "0",
+        "RiskIndicators": {
+          "RiskIndicator": [
+            {
+              "RiskCode": "19",
+              "Description": "Unable to verify name, address, SSN\/TIN and phone",
+              "Sequence": 1
+            },
+            {
+              "RiskCode": "77",
+              "Description": "The input name was missing",
+              "Sequence": 2
+            },
+            {
+              "RiskCode": "79",
+              "Description": "The input SSN\/TIN was missing or incomplete",
+              "Sequence": 3
+            },
+            {
+              "RiskCode": "78",
+              "Description": "The input address was missing",
+              "Sequence": 4
+            },
+            {
+              "RiskCode": "81",
+              "Description": "The input date-of-birth was missing or incomplete",
+              "Sequence": 5
+            },
+            {
+              "RiskCode": "80",
+              "Description": "The input phone was missing or incomplete",
+              "Sequence": 6
+            }
+          ]
+        },
+        "FollowupActions": {
+          "FollowupAction": [
+            {
+              "Action": "B",
+              "Description": "Verify name with Social (via SSN card, DL if applicable, paycheck stub, or other Government Issued ID)"
+            },
+            {
+              "Action": "D",
+              "Description": "Verify phone (Directory Assistance, utility bill)"
+            },
+            {
+              "Action": "C",
+              "Description": "Verify name with Address (via DL, utility bill, Directory Assistance, paycheck stub, or other Government Issued ID)"
+            }
+          ]
+        },
+        "AreaCodeSplitFlag": "N"
+      },
+      "CompanyResults": {
+        "BusinessId": "000074004604",
+        "SOSFilingName": "SPIVEY CONSTRUCTION INC",
+        "VerificationIndicators": {
+          "CompanyName": true,
+          "City": true,
+          "State": true,
+          "Zip": true,
+          "Phone10": true
+        },
+        "VerifiedInput": {
+          "CompanyName": "SPIVEY CONSTRUCTION",
+          "Address": {
+            "City": "INDIANAPOLIS",
+            "State": "IN",
+            "Zip5": "46227"
+          },
+          "Phone10": "3177864337"
+        },
+        "NameAddressPhoneIndicator": 5,
+        "NameAddressFEINIndicator": 2,
+        "NameAddressSSNIndicator": 0,
+        "BusinessVerificationIndicator": 30,
+        "SICCode": "7299",
+        "NAICSCode": "236115",
+        "BusinessDescription": "MISCELLANEOUS PERSONAL SERVICES",
+        "RiskIndicators": {
+          "RiskIndicator": [
+            {
+              "RiskCode": "25",
+              "Description": "Unable to verify address",
+              "Sequence": 1
+            },
+            {
+              "RiskCode": "79",
+              "Description": "The input SSN\/TIN was missing or incomplete",
+              "Sequence": 2
+            },
+            {
+              "RiskCode": "A5",
+              "Description": "A judgement and\/or lien filing was found related to the subject business",
+              "Sequence": 3
+            }
+          ]
+        },
+        "InputCorrected": {
+          "CompanyName": "SPIVEY CONSTRUCTION INC",
+          "Address": {
+            "StreetAddress1": "108 E EPLER AVE",
+            "City": "INDIANAPOLIS",
+            "State": "IN",
+            "Zip5": "46227",
+            "Zip4": "1923"
+          },
+          "Phone10": "3177864337",
+          "DateFirstSeen": {
+            "Year": 1971,
+            "Month": 3
+          }
+        },
+        "NameAddressOfPhone": {
+          "CompanyName": "SPIVEY CONSTRUCTION INC",
+          "Address": {
+            "StreetAddress1": "108 E EPLER AVE",
+            "City": "INDIANAPOLIS",
+            "State": "IN",
+            "Zip5": "46227",
+            "Zip4": "1923"
+          }
+        },
+        "PhoneType": "2",
+        "BankruptcyCount": 0,
+        "RecentLienType": "STATE TAX WARRANT RELEASE",
+        "UnreleasedLienCounter": 1,
+        "RecentLienNameAddress": {
+          "CompanyName": "SPIVEY CONSTRUCTION INCORPORATED",
+          "Address": {
+            "StreetAddress1": "108 E EPLER AVE",
+            "City": "INDIANAPOLIS",
+            "State": "IN",
+            "Zip5": "46227"
+          }
+        },
+        "RecentLienFilingDate": {
+          "Year": 2014,
+          "Month": 12,
+          "Day": 16
+        },
+        "ReleasedLienCounter": 3
+      },
+      "AuthorizedRepresentativeRelationshipToCompany": 0,
+      "DistHomeAddressToBusinessAddress": 9999,
+      "DistHomeAddressToBusinessPhone": 9999,
+      "DistHomePhoneToHomeAddress": 9999
+    }
+  }
+}

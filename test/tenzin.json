@@ -1,0 +1,192 @@
+{
+  "response": {
+    "Header": {
+      "Status": 0,
+      "TransactionId": "37015370R446399"
+    },
+    "Result": {
+      "InputEcho": {
+        "Name": {"Full": "Tenzin Tsewang"},
+        "DOB": {
+          "Year": 1977,
+          "Month": 1,
+          "Day": 15
+        },
+        "SSN": "115946322",
+        "Passport": {
+          "Number": "",
+          "ExpirationDate": {},
+          "Country": "",
+          "MachineReadableLine1": "",
+          "MachineReadableLine2": ""
+        },
+        "Channel": "",
+        "OwnOrRent": ""
+      },
+      "UniqueId": "86444092538",
+      "VerifiedInput": {
+        "Name": {"First": "TENZIN"},
+        "SSN": "11594xxxx",
+        "DOB": {
+          "Year": "1977",
+          "Month": "01",
+          "Day": "XX"
+        }
+      },
+      "DOBVerified": true,
+      "NameAddressSSNSummary": 4,
+      "NameAddressPhone": {"Summary": "0"},
+      "ComprehensiveVerificationIndex": 10,
+      "RiskIndicators": {
+        "RiskIndicator": [
+          {
+            "RiskCode": "51",
+            "Description": "The input last name is not associated with the input SSN",
+            "Sequence": 1
+          },
+          {
+            "RiskCode": "66",
+            "Description": "The input SSN is associated with a different last name, same first name",
+            "Sequence": 2
+          },
+          {
+            "RiskCode": "72",
+            "Description": "The input SSN is associated with a different name and address",
+            "Sequence": 3
+          },
+          {
+            "RiskCode": "37",
+            "Description": "Unable to verify name",
+            "Sequence": 4
+          },
+          {
+            "RiskCode": "78",
+            "Description": "The input address was missing",
+            "Sequence": 5
+          },
+          {
+            "RiskCode": "76",
+            "Description": "The input name may have been miskeyed",
+            "Sequence": 6
+          }
+        ]
+      },
+      "PotentialFollowupActions": {
+        "FollowupAction": [
+          {
+            "RiskCode": "B",
+            "Description": "Verify name with Social (via SSN card, DL if applicable, paycheck stub, or other Government Issued ID)"
+          },
+          {
+            "RiskCode": "C",
+            "Description": "Verify name with Address (via DL, utility bill, Directory Assistance, paycheck stub, or other Government Issued ID)"
+          },
+          {
+            "RiskCode": "D",
+            "Description": "Verify phone (Directory Assistance, utility bill)"
+          }
+        ]
+      },
+      "InputCorrected": {"Name": {"Last": "TSEYANG"}},
+      "SSNInfo": {
+        "Valid": "G",
+        "IssuedLocation": "New York",
+        "IssuedStartDate": {
+          "Year": 2005,
+          "Month": 8,
+          "Day": 2
+        },
+        "IssuedEndDate": {
+          "Year": 2007,
+          "Month": 10,
+          "Day": 1
+        }
+      },
+      "ChronologyHistories": {
+        "ChronologyHistory": [
+          {
+            "Address": {
+              "StreetNumber": "3937",
+              "StreetName": "50TH",
+              "StreetSuffix": "AVE",
+              "UnitDesignation": "FL",
+              "UnitNumber": "1",
+              "StreetAddress1": "3937 50TH AVE FL 1",
+              "City": "SUNNYSIDE",
+              "State": "NY",
+              "Zip5": "11104",
+              "Zip4": "4108"
+            },
+            "DateFirstSeen": {"Year": 2011},
+            "DateLastSeen": {
+              "Year": 2015,
+              "Month": 3
+            }
+          },
+          {
+            "Address": {
+              "StreetNumber": "3140",
+              "StreetName": "32ND",
+              "StreetSuffix": "ST",
+              "UnitDesignation": "APT",
+              "UnitNumber": "14",
+              "StreetAddress1": "3140 32ND ST APT 14",
+              "City": "ASTORIA",
+              "State": "NY",
+              "Zip5": "11106",
+              "Zip4": "2560"
+            },
+            "DateFirstSeen": {
+              "Year": 2014,
+              "Month": 4
+            },
+            "DateLastSeen": {
+              "Year": 2015,
+              "Month": 1
+            },
+            "IsBestAddress": true
+          },
+          {
+            "Address": {
+              "StreetNumber": "7506",
+              "StreetName": "WOODSIDE",
+              "StreetSuffix": "AVE",
+              "UnitDesignation": "APT",
+              "UnitNumber": "2J",
+              "StreetAddress1": "7506 WOODSIDE AVE APT 2J",
+              "City": "ELMHURST",
+              "State": "NY",
+              "Zip5": "11373",
+              "Zip4": "1818"
+            },
+            "DateFirstSeen": {
+              "Year": 2009,
+              "Month": 1
+            },
+            "DateLastSeen": {
+              "Year": 2014,
+              "Month": 12
+            }
+          }
+        ]
+      },
+      "AdditionalScore1": "0",
+      "AdditionalScore2": "0",
+      "CurrentName": {
+        "First": "TENZIN",
+        "Last": "TSEYANG"
+      },
+      "AdditionalLastNames": {
+        "AdditionalLastName": {
+          "DateLastSeen": {
+            "Year": 2015,
+            "Month": 3
+          },
+          "LastName": "TSEYANG"
+        }
+      },
+      "PassportValidated": false,
+      "DOBMatchLevel": 8
+    }
+  }
+}

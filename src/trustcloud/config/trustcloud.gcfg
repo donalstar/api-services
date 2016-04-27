@@ -1,0 +1,78 @@
+; Comment line
+[env]
+listenPort = 4740
+
+; Environment Servers
+[servers]
+dev = ip-10-29-26-8
+prod = ip-10-69-91-161
+
+[guarantee]
+name = TrustCloud Satisfaction Guarantee
+currency = USD
+supportPhone = 866-227-3969
+pricePercentage = 5
+priceRoundUp = 5
+
+
+[mailtemplate "created"]
+name = project-created.tpl
+subject = PeerProtect: Project Submission Confirmation
+
+[mailtemplate "approved"]
+name = project-approved.tpl
+subject = PeerProtect: Contractor Certified
+
+[mailtemplate "declined"]
+name = project-declined.tpl
+subject = PeerProtect: Certification Status Update
+
+[mailtemplate "complete"]
+name = purchase-complete.tpl
+subject = PeerProtect: You're Covered!
+
+; Connectors
+
+[connector "fullcontact"]
+id = 513e06440ef80e32
+baseUrl = https://api.fullcontact.com/v2/person.json
+
+[connector "fullcontactCompany"]
+id = 513e06440ef80e32
+baseUrl = https://api.fullcontact.com/v2/company/lookup.json
+
+[connector "facebook"]
+id = 219090466894
+password = 2aa70bd2d2481e63c55175bf8560ccbe
+baseUrl = https://graph.facebook.com
+
+[connector "backgroundchecks"]
+id = TrustCloudint
+password = tcheck88
+baseUrl = https://dev.trustcloud.com/bg.php
+
+[connector "ln"]
+id = TRUSTCLOUDXML
+password = 225vmzmA
+baseUrl = https://dev.trustcloud.com/ln.php
+
+[connector "lnIndividual"]
+id = TRUSTCLOUDXML
+password = 225vmzmA
+baseUrl = https://dev.trustcloud.com/ln_individual.php
+
+[connector "experian"]
+id = trustcloud
+password = Tr3stCl0ud
+baseUrl = http://www.experian.com/lookupServlet1
+
+[connector "experian2"]
+baseUrl = http://localhost:4744/experian_check
+
+[connector "yelp"]
+id = HSk96-KpziLOdcuwzquy6g
+baseUrl = http://api.yelp.com/phone_search
+
+[connector "google"]
+baseUrl = https://dev.trustcloud.com/google_check.php
+
